@@ -1,0 +1,54 @@
+.container{
+     background-color: rgb(118, 113, 121);
+    height: 4rem;
+    width: 100%;}
+     
+
+.subContainer{
+    /* background-color: green; */
+    display: flex;
+   
+    padding-left: 3rem;
+    /* background-color: red; */
+    height: inherit;
+    flex-direction: row;
+
+}
+.liContainer{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    margin-right: 4rem;
+    
+}
+.loginButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9rem;
+    /* color:blue; */
+  
+}
+.loginButton button{
+    color: blue;
+    border: 2px solid ;
+}
+.navContents{
+    display: flex;
+    margin-left: 40%;
+    /* background-color: green; */
+    margin-bottom: 1rem;
+}
+
+button{
+    border-radius: 1.5rem;
+    height: 2rem;
+    width: 7rem;
+    background-color: transparent;
+    font-size: 1rem;
+}
+.imageContainer{
+    /* background-color: blue; */
+}
